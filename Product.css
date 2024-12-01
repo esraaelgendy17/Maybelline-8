@@ -1,0 +1,150 @@
+<html>
+<head><title> Maybelline </title>
+<style>
+body{background-color:LightGray;}
+
+.topnav{
+background-color:#333;
+overflow:hidden;
+}
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration:none;
+font-size: 17px;
+}
+
+.topnav a.active{
+background-color: #04AA6;
+color:white;
+}
+
+.topnav a:hover{
+background-color:blue;
+color:green;
+}
+
+footer{
+text-align:center;
+padding:3px;
+background-color:DarkSalmon;
+color:white;
+}
+
+body{
+       border: 3px solid black;
+       width: 1200px;
+       margin: 0 auto;
+}
+
+header {
+     border: 2px solid blue;
+     height: 150px;
+     margin: 10px 5px 0 5px;
+}
+#toplinks {
+       height: 35px;
+       background-color: black;
+       text-align: right;
+}
+#toplinks ul {
+      list-style-type: none;
+      margin:0;
+      padding-top: 7px;
+}
+#toplinks ul li {
+     display: inline;
+} 
+#toplinks ul li a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+}
+#logo {
+    float: left;
+}
+#search{
+   display: inline-block;
+   margin-left: 100px;
+   margin-top: 30px;
+}
+#search for input {
+     height: 35px;
+}
+#Go{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    width: 50px;
+    font-weight: bold;
+}
+#Go:hover{
+   cursor:pointer;
+   background-color: crimson;
+   font-family: cursive;
+}
+#CARTT{
+    float:right;
+    margin-top: 20px;
+}
+nav ul{
+    list-style-type:none;
+    text-align:center;
+    margin:0;
+}
+nav ul li{
+ display: inline;
+}
+nav ul li a{
+     display: inline-block;
+     width: 130px;
+     color: black;
+     text-decoration: none;
+     padding: 6px;
+}
+nav{
+    background-color: lightgray;
+    margin: 10px;
+}
+nav ul li a:hover{
+   background-color: blue;
+   color: white;
+}
+#leftfrom{
+   float: left;
+   margin-left: 10px;
+}
+#rightform{
+    float: right;
+    margin-right: 10px;
+}
+article table{
+    margin: auto;
+}
+article table tr td {
+     text-align:center;
+     border: 2px solid black;
+}
+.price{
+    color: steelblue;
+    font-weight:bold;
+    font-size: 17px;
+}
+</style>
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="Home">Home</a>
+    <a href="About.html">About</a>
+    <a href="Our pages">Our pages</a>
+    <a href="Product.html">Product</a>
+    <a href="Feedback.html">Feedback</a>
+    <input type="text" placeholder="Search.." id="search">
+    <input type="button" value="GO" id="GO">
+  </div>
+</body>
+
+</html>
